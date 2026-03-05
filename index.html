@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name | Portfolio Resume</title>
+    <title>Vincent Trinh | Senior Data Engineer</title>
     <meta
       name="description"
-      content="Personal website and online resume for Your Name."
+      content="Personal website and online resume for Vincent Trinh, Senior Data Engineer."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,26 +20,34 @@
     <div class="background-glow" aria-hidden="true"></div>
 
     <header class="site-header">
-      <a class="logo" href="#top">YN</a>
+      <a class="logo" href="#top">VT</a>
       <nav class="site-nav" aria-label="Main">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="resume-btn" href="#" aria-label="Download resume">Resume</a>
+      <a
+        class="resume-btn"
+        href="https://www.linkedin.com/in/baduy9x/"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Open LinkedIn profile"
+        >LinkedIn</a
+      >
     </header>
 
     <main id="top">
       <section class="hero section reveal">
-        <p class="eyebrow">Open to New Opportunities</p>
+        <p class="eyebrow">Senior Data Engineer · Singapore</p>
         <h1>
-          Hi, I’m <span>Your Name</span>.<br />
-          I build thoughtful digital products.
+          Hi, I’m <span>Vincent Trinh</span>.<br />
+          I build reliable data and ML platforms.
         </h1>
         <p class="lead">
-          Product-minded developer with a track record of shipping reliable,
-          user-focused web experiences.
+          6.5+ years building mission-critical data systems, event streaming
+          platforms, and machine learning pipelines from ingestion to insight.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#contact">Get In Touch</a>
@@ -50,43 +58,101 @@
       <section id="about" class="section about reveal">
         <div class="section-title-wrap">
           <p class="section-kicker">About</p>
-          <h2>Short Bio</h2>
+          <h2>Profile</h2>
         </div>
         <p>
-          I’m a developer who likes clean architecture, clear communication, and
-          shipping useful software quickly. Over the last few years I’ve worked
-          across frontend, backend, and cloud workflows, partnering with teams
-          to turn ambiguous ideas into dependable products.
+          Highly skilled in Big Data Engineering and Machine Learning with strong
+          hands-on experience across Spark, Kafka, Hadoop, Airflow, Databricks,
+          and cloud platforms (Azure, AWS). I focus on data-intensive systems,
+          system design, optimization, and practical business impact.
         </p>
       </section>
 
       <section id="experience" class="section reveal">
         <div class="section-title-wrap">
           <p class="section-kicker">Experience</p>
-          <h2>Recent Roles</h2>
+          <h2>Experience</h2>
         </div>
 
         <article class="card timeline-item">
           <div class="card-header">
-            <h3>Senior Software Engineer</h3>
-            <p>Acme Corp · 2023 - Present</p>
+            <h3>Senior Data Engineer</h3>
+            <p>Singtel · June 2022 - Present</p>
           </div>
           <ul>
-            <li>Led rebuild of customer dashboard, improving performance by 35%.</li>
-            <li>Introduced CI checks that reduced production regressions by 40%.</li>
-            <li>Partnered with design and PM to launch 4 major features.</li>
+            <li>
+              Designed and operated production Confluent Kafka clusters for
+              microservices communication and real-time ingestion with zero
+              downtime.
+            </li>
+            <li>
+              Tuned Cloudera/Spark workloads to reduce resource usage by up to
+              80% and improve processing speed by up to 80%.
+            </li>
+            <li>
+              Implemented Oracle CDC with Kafka Connect and custom SMT field-level
+              encryption, reducing latency from 1 day to around 10 seconds.
+            </li>
           </ul>
         </article>
 
         <article class="card timeline-item">
           <div class="card-header">
-            <h3>Software Engineer</h3>
-            <p>Beta Labs · 2020 - 2023</p>
+            <h3>Data Engineer II</h3>
+            <p>Axon Inc · Sep 2021 - Jun 2022</p>
           </div>
           <ul>
-            <li>Built internal tools that saved support teams 12+ hours weekly.</li>
-            <li>Maintained API services used by 100k+ monthly users.</li>
-            <li>Mentored junior developers and established onboarding docs.</li>
+            <li>
+              Built event-driven ingestion architecture with Debezium + Kafka to
+              Azure SQL and improved data platform deployment workflows.
+            </li>
+            <li>
+              Led schema migration strategy and query tuning to improve database
+              flexibility and performance.
+            </li>
+            <li>
+              Implemented metrics and monitoring that improved debugging speed and
+              system visibility.
+            </li>
+          </ul>
+        </article>
+
+        <article class="card timeline-item">
+          <div class="card-header">
+            <h3>Big Data / Machine Learning Engineer</h3>
+            <p>CICDATA JSC · Nov 2018 - Sep 2021</p>
+          </div>
+          <ul>
+            <li>
+              Built terabyte-scale data systems covering 95% of Vietnam's
+              population and reduced latency from hours to minutes.
+            </li>
+            <li>
+              Owned credit scoring model (81 AUC) used for over 2M scored users
+              and helped reduce unsecured loan risk by 60%.
+            </li>
+            <li>
+              Improved fraud model performance from 74 AUC to 83 AUC through new
+              verification features.
+            </li>
+          </ul>
+        </article>
+
+        <article class="card timeline-item">
+          <div class="card-header">
+            <h3>Machine Learning Engineer</h3>
+            <p>Zalo - VNG Corp · Oct 2017 - Nov 2018</p>
+          </div>
+          <ul>
+            <li>Built end-to-end name scoring API for username validation.</li>
+            <li>
+              Developed emoji/sticker suggestion models (95% top-3 accuracy) and
+              compressed model size by 99% for mobile deployment.
+            </li>
+            <li>
+              Ranked top 3 in ISPRS 2D semantic labeling contest (90.7% overall
+              F1 score).
+            </li>
           </ul>
         </article>
       </section>
@@ -94,46 +160,68 @@
       <section id="projects" class="section reveal">
         <div class="section-title-wrap">
           <p class="section-kicker">Projects</p>
-          <h2>Selected Work</h2>
+          <h2>Key Strengths</h2>
         </div>
 
         <div class="project-grid">
           <article class="card project-card">
-            <h3>InsightBoard</h3>
+            <h3>Data Engineering</h3>
             <p>
-              Analytics dashboard for small teams with live metrics and alerting.
+              Batch and real-time ETL pipelines using Spark, Spark Streaming,
+              Delta Lake, Kafka, and Airflow.
             </p>
-            <p class="tags">React · TypeScript · Node.js</p>
+            <p class="tags">Spark · Kafka · Airflow · Databricks</p>
           </article>
 
           <article class="card project-card">
-            <h3>DocFlow</h3>
+            <h3>Machine Learning</h3>
             <p>
-              Workflow app that automates document approvals and audit trails.
+              Production ML development with feature engineering, model training,
+              evaluation, and deployment.
             </p>
-            <p class="tags">Next.js · PostgreSQL · Docker</p>
+            <p class="tags">Python · Sklearn · TensorFlow · XGBoost</p>
           </article>
 
           <article class="card project-card">
-            <h3>Portfolio CMS</h3>
+            <h3>Platforms & Ops</h3>
             <p>
-              Lightweight content system for creators to manage online portfolios.
+              Monitoring, reliability, and performance optimization for
+              mission-critical distributed systems.
             </p>
-            <p class="tags">Vue · Firebase · Tailwind</p>
+            <p class="tags">Grafana · Prometheus · Docker · Linux</p>
           </article>
         </div>
+      </section>
+
+      <section id="education" class="section reveal">
+        <div class="section-title-wrap">
+          <p class="section-kicker">Education</p>
+          <h2>Academic Background</h2>
+        </div>
+        <article class="card timeline-item">
+          <div class="card-header">
+            <h3>Hanoi University of Science and Technology</h3>
+            <p>Engineer's Degree in Computer Science · Aug 2013 - Jan 2018</p>
+          </div>
+          <ul>
+            <li>CPA: 7.9 / 10</li>
+          </ul>
+        </article>
       </section>
 
       <section id="contact" class="section contact reveal">
         <div class="section-title-wrap">
           <p class="section-kicker">Contact</p>
-          <h2>Let’s Build Something Useful</h2>
+          <h2>Get In Touch</h2>
         </div>
         <p>
           Reach me at
-          <a href="mailto:you@example.com">you@example.com</a>
-          or on
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"
+          <a href="mailto:trinhvanduyhust@gmail.com">trinhvanduyhust@gmail.com</a>,
+          call <a href="tel:+6584384686">+65 8438 4686</a>, or connect on
+          <a
+            href="https://www.linkedin.com/in/baduy9x/"
+            target="_blank"
+            rel="noreferrer"
             >LinkedIn</a
           >.
         </p>
@@ -141,7 +229,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>© <span id="year"></span> Vincent Trinh. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
