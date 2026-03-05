@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Portfolio Resume</title>
+    <meta
+      name="description"
+      content="Personal website and online resume for Your Name."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#top">YN</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="resume-btn" href="#" aria-label="Download resume">Resume</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section reveal">
+        <p class="eyebrow">Open to New Opportunities</p>
+        <h1>
+          Hi, I’m <span>Your Name</span>.<br />
+          I build thoughtful digital products.
+        </h1>
+        <p class="lead">
+          Product-minded developer with a track record of shipping reliable,
+          user-focused web experiences.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get In Touch</a>
+          <a class="btn btn-secondary" href="#projects">See My Work</a>
+        </div>
+      </section>
+
+      <section id="about" class="section about reveal">
+        <div class="section-title-wrap">
+          <p class="section-kicker">About</p>
+          <h2>Short Bio</h2>
+        </div>
+        <p>
+          I’m a developer who likes clean architecture, clear communication, and
+          shipping useful software quickly. Over the last few years I’ve worked
+          across frontend, backend, and cloud workflows, partnering with teams
+          to turn ambiguous ideas into dependable products.
+        </p>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <div class="section-title-wrap">
+          <p class="section-kicker">Experience</p>
+          <h2>Recent Roles</h2>
+        </div>
+
+        <article class="card timeline-item">
+          <div class="card-header">
+            <h3>Senior Software Engineer</h3>
+            <p>Acme Corp · 2023 - Present</p>
+          </div>
+          <ul>
+            <li>Led rebuild of customer dashboard, improving performance by 35%.</li>
+            <li>Introduced CI checks that reduced production regressions by 40%.</li>
+            <li>Partnered with design and PM to launch 4 major features.</li>
+          </ul>
+        </article>
+
+        <article class="card timeline-item">
+          <div class="card-header">
+            <h3>Software Engineer</h3>
+            <p>Beta Labs · 2020 - 2023</p>
+          </div>
+          <ul>
+            <li>Built internal tools that saved support teams 12+ hours weekly.</li>
+            <li>Maintained API services used by 100k+ monthly users.</li>
+            <li>Mentored junior developers and established onboarding docs.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-title-wrap">
+          <p class="section-kicker">Projects</p>
+          <h2>Selected Work</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="card project-card">
+            <h3>InsightBoard</h3>
+            <p>
+              Analytics dashboard for small teams with live metrics and alerting.
+            </p>
+            <p class="tags">React · TypeScript · Node.js</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>DocFlow</h3>
+            <p>
+              Workflow app that automates document approvals and audit trails.
+            </p>
+            <p class="tags">Next.js · PostgreSQL · Docker</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Portfolio CMS</h3>
+            <p>
+              Lightweight content system for creators to manage online portfolios.
+            </p>
+            <p class="tags">Vue · Firebase · Tailwind</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <div class="section-title-wrap">
+          <p class="section-kicker">Contact</p>
+          <h2>Let’s Build Something Useful</h2>
+        </div>
+        <p>
+          Reach me at
+          <a href="mailto:you@example.com">you@example.com</a>
+          or on
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"
+            >LinkedIn</a
+          >.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
